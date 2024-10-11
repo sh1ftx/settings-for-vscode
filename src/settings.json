@@ -1,4 +1,3 @@
-// Segue abaixo o script das configurações de personnalização do meu vscode. faça um documentário explicando cada parte dele, como ficará o visual do vscode e porque é importante deixar a IDE conforme seus própios gostos... Além disso destaque as extenssões e temas que precisam ser baixadas para funcionar: {
   "symbols.hidesExplorerArrows": false,
   "workbench.sideBar.location": "left",
   "workbench.startupEditor": "newUntitledFile",
