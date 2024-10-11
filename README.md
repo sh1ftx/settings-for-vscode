@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Documentação das Configurações de Personalização do Visual Studio Code
 
 Essa documentação apresenta as configurações personalizadas do Visual Studio Code que melhoram a experiência de desenvolvimento do usuário, aumentando a produtividade e personalizando o ambiente de trabalho.
@@ -64,4 +63,3 @@ Este guia resume as configurações de personalização do Visual Studio Code, d
 =======
 # script-json-para-personaliza-o-do-ambiente-do-Visual-Studio-Code
 Quer codar em um ambiente mais bonito, limpo, minimalista e agradável? Basta usar o atalho de teclado: Ctrl + Shift + P em seu vscode e depois inserir o código do repositório no arquivo aberto.
->>>>>>> 3380247d56843361af1dfd2d9c9f26c96df42fff
