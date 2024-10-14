@@ -56,10 +56,3 @@ Para aproveitar ao máximo as configurações personalizadas, algumas extensões
 ## Importância da Personalização
 
 Personalizar seu ambiente de desenvolvimento é fundamental para criar um espaço que se adapte ao seu estilo de trabalho. Um ambiente confortável não só melhora a produtividade como também torna o processo de codificação mais agradável. Com as configurações apresentadas, o usuário pode atender suas preferências pessoais, evitando distrações e focando no que realmente importa: o desenvolvimento de software de qualidade.
-
-## Conclusão
-
-Este guia resume as configurações de personalização do Visual Studio Code, destacando como essas escolhas impactam positivamente a experiência de desenvolvimento. Ajustar seu ambiente à sua maneira é um passo essencial para se tornar um programador mais eficiente e satisfeito com seu trabalho. Se precisar de mais personalizações ou suporte, não hesite em explorar a rica biblioteca de extensões e temas disponíveis no Marketplace do Visual Studio Code.
-=======
-# script-json-para-personaliza-o-do-ambiente-do-Visual-Studio-Code
-Quer codar em um ambiente mais bonito, limpo, minimalista e agradável? Basta usar o atalho de teclado: Ctrl + Shift + P em seu vscode e depois inserir o código do repositório no arquivo aberto.
