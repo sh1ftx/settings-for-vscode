@@ -1,3 +1,4 @@
+{
   "symbols.hidesExplorerArrows": false,
   "workbench.sideBar.location": "left",
   "workbench.startupEditor": "newUntitledFile",
@@ -5,9 +6,9 @@
   "editor.lineHeight": 1.8,
   "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.rulers": [80, 120],
+  "editor.rulers": [],
   "extensions.ignoreRecommendations": true,
-  "typetLigaturscript.tsserver.log": "off",
+  "typescript.tsserver.log": "off",
   "editor.stickyScroll.enabled": false,
   "workbench.tree.enableStickyScroll": false,
   "files.associations": {
@@ -29,15 +30,18 @@
     ".env.example": "gear"
   },
   "tailwindCSS.experimental.classRegex": [
-    ["tv\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
-    "class:\\s*?[\"'`]([^\"'`]*).*?,"
+    [
+      "tv\\(([^)]*)\\)",
+      "[\"']([^\"']*).*?[\"']"
+    ],
+    "class:\\s*?[\"']([^\"']*).*?,"
   ],
   "editor.parameterHints.enabled": false,
   "editor.renderLineHighlight": "gutter",
   "cSpell.language": "en,pt",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.suggestSelection": "first",
-  "explorer.confirmDelete": false,
+  "explorer.confirmDelete": true,
   "gitlens.codeLens.recentChange.enabled": false,
   "terminal.integrated.showExitAlert": false,
   "[prisma]": {
@@ -79,13 +83,17 @@
   "explorer.compactFolders": false,
   "git.enableSmartCommit": true,
   "editor.accessibilitySupport": "off",
-  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDragAndDrop": true,
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontFamily": "Fira Code",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+    "source.fixAll": "explicit"
   },
-  "eslint.validate": ["javascript", "javascriptreact", "graphql"],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "graphql"
+  ],
   "editor.semanticHighlighting.enabled": false,
   "breadcrumbs.enabled": false,
   "editor.fontFamily": "Fira Code",
@@ -101,9 +109,9 @@
     ".vscode": true
   },
   "workbench.iconTheme": "symbols",
-  "update.mode": "default",
   "terminal.integrated.gpuAcceleration": "on",
   "terminal.integrated.defaultProfile.osx": "fish",
+  "terminal.integrated.defaultLocation": "editor",
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
@@ -128,7 +136,7 @@
   },
   "editor.hideCursorInOverviewRuler": false,
   "editor.minimap.enabled": false,
-  "window.titleBarStyle": "native",
+  "window.titleBarStyle": "hidden",
   "apc.electron": {
     "titleBarStyle": "hiddenInset",
     "trafficLightPosition": {
@@ -154,10 +162,7 @@
     ".pane-body": "padding: 8px",
     ".split-view-view:first-child .pane-header": "display: none !important;",
     ".monaco-list-row": "border-radius: 4px;",
-    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;",
-    ".titlebar": "position: relative; height: 30px;",
-    ".titlebar .titlebar-controls": "display: flex; justify-content: flex-end; position: absolute; top: 0; right: 0;",
-    ".titlebar .titlebar-controls::before": "content: '●'; color: red; font-size: 12px; margin-left: 5px;"
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
   },
   "editor.scrollbar.vertical": "hidden",
   "explorer.sortOrder": "foldersNestsFiles",
@@ -184,15 +189,17 @@
     "textMateRules": []
   },
   "workbench.layoutControl.enabled": false,
-  "workbench.colorTheme": "Styx",
-  "glassit.alpha": 220,
+  "workbench.colorTheme": "ultrafocus dark",
   "window.customTitleBarVisibility": "auto",
   "workbench.activityBar.location": "top",
-  "code-runner.runInTerminal": true,
   "files.autoSave": "afterDelay",
   "editor.snippets": {
     "Math Symbols": {
-      "prefix": [">=", "<=", "=>"],
+      "prefix": [
+        ">=",
+        "<=",
+        "=>"
+      ],
       "body": [
         {
           "prefix": "=>",
@@ -210,28 +217,41 @@
       "description": "Replace symbols with math symbols"
     }
   },
-  "vscode_custom_css.imports": [
-    "file:///home/Kayzinho/Locais/Downloads/Documentos/Udemy/Curso%20Java/Config/centralizar.css"
-  ],
-  "workbench.statusBar.visible": false,
   "workbench.editor.tabSizing": "fit",
   "workbench.editor.showTabs": "single",
   "workbench.editor.showIcons": false,
-  "window.titleBarStyle": "hidden",
-  "window.title": "${activeEditorShort}",
-  "editor.minimap.enabled": false,
   "window.menuBarVisibility": "hidden",
- // Configuração para o terminal abrir na área de edição (lado a lado com o código)
-"terminal.integrated.defaultLocation": "editor",
-"workbench.editor.doubleClickTabToToggleEditorGroupSizes": "maximize",
-"java.project.referencedLibraries": [
-    "lib/**/*.jar"
-],
-"rsp-ui.enableStartServerOnActivation": [
-  {
-    "id": "redhat.vscode-community-server-connector",
-    "name": "Community Server Connector",
-    "startOnActivation": true
-  }
-]
+  "editor.renderWhitespace": "none",
+  "editor.wordWrap": "on",
+  "editor.scrollBeyondLastLine": false,
+  "glassit.alpha": 220,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "terminal.integrated.env.linux": {},
+  "chatgpt.lang": "pt",
+  "cloudcode.duetAI.project": "gen-lang-client-0803002637",
+  "diffEditor.codeLens": true,
+  "polacode.backgroundColor": "#00ff95",
+  "polacode.shadow": "/* Ciano Neon */ rgba(0, 255, 255, 0.55) 0px 20px 68px  /* Roxo Neon */ rgba(138, 43, 226, 0.55) 0px 20px 68px  /* Verde Neon */ rgba(57, 255, 20, 0.55) 0px 20px 68px  /* Rosa Neon */ rgba(255, 105, 180, 0.55) 0px 20px 68px  /* Amarelo Neon */ rgba(255, 255, 51, 0.55) 0px 20px 68px",
+  "polacode.transparentBackground": true,
+  "polacode.target": "snippet",
+  "editor.codeLens": false,
+  "editor.columnSelection": true,
+  "output.smartScroll.enabled": false,
+  "code-runner.runInTerminal": true,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.profiles.linux": {
+    "zsh": {
+      "path": "/usr/bin/zsh"
+    }
+  },
+  "terminal.explorerKind": "external",
+  "terminal.integrated.accessibleViewFocusOnCommandExecution": true,
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.confirmOnKill": "never",
+  "terminal.integrated.enableVisualBell": true,
+  "terminal.integrated.enablePersistentSessions": false,
+  "workbench.productIconTheme": "bongocat",
+  "workbench.editor.enablePreview": false
 }
