@@ -1,3 +1,4 @@
+
 {
   "symbols.hidesExplorerArrows": false,
   "workbench.sideBar.location": "left",
@@ -160,9 +161,9 @@
     ".nosidebar .inline-tabs-placeholder": "width: 75px",
     ".pane-header": "padding: 0 8px",
     ".pane-body": "padding: 8px",
-    ".split-view-view:first-child .pane-header": "display: none !important;",
+    ".split-view-view:first-child .pane-header": "display: none !important",
     ".monaco-list-row": "border-radius: 4px;",
-    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": ""
   },
   "editor.scrollbar.vertical": "hidden",
   "explorer.sortOrder": "foldersNestsFiles",
@@ -172,7 +173,7 @@
     "*.jsx": "${capture}.js",
     "*.tsx": "${capture}.ts",
     "tsconfig.json": "tsconfig.*.json",
-    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*",
     "tailwind.config.*": "tailwind.config*, postcss.config*",
     ".env.local": ".env*",
     ".env": ".env*",
@@ -193,30 +194,6 @@
   "window.customTitleBarVisibility": "auto",
   "workbench.activityBar.location": "top",
   "files.autoSave": "afterDelay",
-  "editor.snippets": {
-    "Math Symbols": {
-      "prefix": [
-        ">=",
-        "<=",
-        "=>"
-      ],
-      "body": [
-        {
-          "prefix": "=>",
-          "body": "⇒"
-        },
-        {
-          "prefix": "<=",
-          "body": "≤"
-        },
-        {
-          "prefix": ">=",
-          "body": "≥"
-        }
-      ],
-      "description": "Replace symbols with math symbols"
-    }
-  },
   "workbench.editor.tabSizing": "fit",
   "workbench.editor.showTabs": "single",
   "workbench.editor.showIcons": false,
@@ -225,15 +202,12 @@
   "editor.wordWrap": "on",
   "editor.scrollBeyondLastLine": false,
   "glassit.alpha": 220,
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "terminal.integrated.env.linux": {},
   "chatgpt.lang": "pt",
   "cloudcode.duetAI.project": "gen-lang-client-0803002637",
   "diffEditor.codeLens": true,
   "polacode.backgroundColor": "#00ff95",
-  "polacode.shadow": "/* Ciano Neon */ rgba(0, 255, 255, 0.55) 0px 20px 68px  /* Roxo Neon */ rgba(138, 43, 226, 0.55) 0px 20px 68px  /* Verde Neon */ rgba(57, 255, 20, 0.55) 0px 20px 68px  /* Rosa Neon */ rgba(255, 105, 180, 0.55) 0px 20px 68px  /* Amarelo Neon */ rgba(255, 255, 51, 0.55) 0px 20px 68px",
+  "polacode.shadow": "",
   "polacode.transparentBackground": true,
   "polacode.target": "snippet",
   "editor.codeLens": false,
@@ -252,6 +226,8 @@
   "terminal.integrated.confirmOnKill": "never",
   "terminal.integrated.enableVisualBell": true,
   "terminal.integrated.enablePersistentSessions": false,
-  "workbench.productIconTheme": "bongocat",
-  "workbench.editor.enablePreview": false
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "database-client.autoSync": true,
+  "redhat.telemetry.enabled": true
 }
+
