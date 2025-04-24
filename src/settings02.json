@@ -1,0 +1,219 @@
+{
+  // Editor Principal
+  "editor.fontFamily": "'Fira Code', monospace",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 1.8,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.renderWhitespace": "none",
+  "editor.minimap.enabled": false,
+  "editor.renderLineHighlight": "gutter",
+  "editor.parameterHints.enabled": false,
+  "editor.quickSuggestionsDelay": 0,
+  "editor.formatOnSave": true,
+  "editor.fontLigatures": true,
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.lineNumbers": "on",
+  // Terminal Integrado
+  "terminal.integrated.fontFamily": "'Fira Code', monospace",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.profiles.linux": {
+    "zsh": {
+      "path": "/usr/bin/zsh"
+    }
+  },
+  "terminal.integrated.gpuAcceleration": "on",
+  "terminal.integrated.defaultLocation": "editor",
+  "terminal.integrated.enableVisualBell": true,
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.confirmOnKill": "never",
+  "terminal.integrated.cursorBlinking": true,
+  // Estilo e Ícones
+  "workbench.iconTheme": "symbols",
+  "workbench.statusBar.noFolder": true,
+  "workbench.editor.tabSizing": "fit",
+  "workbench.editor.showTabs": "single",
+  "workbench.editor.showIcons": false,
+  "workbench.editor.labelFormat": "short",
+  "window.titleBarStyle": "hidden",
+  "window.commandCenter": false,
+  "window.customTitleBarVisibility": "auto",
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.productIconTheme": "material-product-icons",
+  "window.zoomLevel": 0,
+  // Configurações de transparência inspiradas no Hyprland
+  "glassit.alpha": 200,
+  "apc.font.family": "'Fira Code', monospace",
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 11,
+      "y": 10
+    },
+    "opacity": 0.85,
+    "vibrancy": "dark",
+    "frame": false
+  },
+  "apc.header": {
+    "height": 36
+  },
+  "apc.activityBar": {
+    "position": "bottom",
+    "hideSettings": false,
+    "size": 48,
+    "itemMargin": 8,
+    "itemSize": 32
+  },
+  "apc.stylesheet": {
+    ".title-label > h2": "display: none",
+    ".editor-actions": "display: none",
+    ".nosidebar .inline-tabs-placeholder": "width: 75px",
+    ".pane-header": "padding: 0 8px",
+    ".pane-body": "padding: 8px",
+    ".split-view-view:first-child .pane-header": "display: none !important",
+    ".monaco-list-row": "border-radius: 4px;"
+  },
+  // Funções Extras de Produtividade
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*",
+    "tailwind.config.*": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env*",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  },
+  "explorer.sortOrder": "foldersNestsFiles",
+  "explorer.compactFolders": false,
+  // Novas Funcionalidades Criativas
+  "transparency.dynamic": true,
+  "focusMode.enabled": true,
+  "focusMode.blurEffect": "light",
+  "focusMode.dimBackground": true,
+  "focusMode.disableSidebar": true,
+  "focusMode.disableActivityBar": true,
+  // Modo de Trabalho Imersivo
+  "workMode.toggle": {
+    "key": "ctrl+shift+f12",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  "workMode.togglePanel": {
+    "key": "ctrl+shift+f11",
+    "command": "workbench.action.togglePanel"
+  },
+  // Atalhos Inovadores
+  "keybindings": [
+    {
+      "key": "ctrl+shift+t",
+      "command": "workbench.action.terminal.toggleTerminal",
+      "when": "terminalFocus"
+    },
+    {
+      "key": "ctrl+shift+f",
+      "command": "editor.action.find"
+    },
+    {
+      "key": "ctrl+shift+z",
+      "command": "workbench.action.toggleZenMode"
+    },
+    {
+      "key": "ctrl+alt+t",
+      "command": "terminal.integrated.splitInEditor"
+    },
+    {
+      "key": "ctrl+alt+d",
+      "command": "workbench.action.debug.start"
+    },
+    {
+      "key": "ctrl+shift+c",
+      "command": "workbench.action.terminal.clear"
+    },
+    {
+      "key": "ctrl+shift+p",
+      "command": "workbench.action.showCommands"
+    },
+    {
+      "key": "ctrl+shift+m",
+      "command": "editor.action.formatDocument"
+    },
+    {
+      "key": "ctrl+shift+e",
+      "command": "explorer.focus"
+    },
+    {
+      "key": "ctrl+shift+v",
+      "command": "workbench.action.files.openFile"
+    },
+    {
+      "key": "ctrl+alt+w",
+      "command": "editor.action.close"
+    },
+    {
+      "key": "ctrl+shift+y",
+      "command": "editor.action.rename"
+    },
+    {
+      "key": "ctrl+alt+n",
+      "command": "workbench.action.quickOpen"
+    },
+    {
+      "key": "ctrl+alt+z",
+      "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+      "key": "ctrl+shift+u",
+      "command": "editor.action.selectAll"
+    },
+    {
+      "key": "ctrl+shift+x",
+      "command": "workbench.action.toggleTerminal"
+    },
+    {
+      "key": "ctrl+shift+f11",
+      "command": "workbench.action.togglePanel"
+    },
+    {
+      "key": "ctrl+shift+f9",
+      "command": "editor.action.toggleTabFocusMode"
+    }
+  ],
+  // Transparência Dinâmica
+  "window.dynamicTransparency": {
+    "enabled": true,
+    "amount": 50
+  },
+  // Linter e Formatadores
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "graphql",
+    "typescript"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "files.autoSaveDelay": 500,
+  "files.autoSave": "onWindowChange",
+  "update.showReleaseNotes": false,
+  "extensions.ignoreRecommendations": true,
+  // Outras Melhorias
+  "cSpell.language": "en,pt",
+  "terminal.explorerKind": "external",
+  "workbench.tree.enableStickyScroll": false,
+  "breadcrumbs.enabled": false,
+  "symbols.hidesExplorerArrows": false,
+  "code-runner.runInTerminal": true,
+  "workbench.activityBar.location": "hidden",
+  "workbench.statusBar.visible": false
+}
