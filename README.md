@@ -1,3 +1,13 @@
+```
+________          __  .__ __    
+\_____  \ _______/  |_|__|  | __
+ /   |   \\____ \   __\  |  |/ /
+/    |    \  |_> >  | |  |    < 
+\_______  /   __/|__| |__|__|_ \
+        \/|__|                \/
+```
+---
+
 # Documentação das Configurações de Personalização do Visual Studio Code
 
 Essa documentação apresenta as configurações personalizadas do Visual Studio Code que melhoram a experiência de desenvolvimento do usuário, aumentando a produtividade e personalizando o ambiente de trabalho.
